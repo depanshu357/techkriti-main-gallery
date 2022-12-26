@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Carousel from "./components/caroursel"
+import Example from "./components/example"
+import { useState } from 'react';
+import Camileo from './components/Camileo';
+import Home from "./components/Home"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// const [y,setY]=useState(0);
+document.getElementById('root').style.backgroundColor="grey";
+
 root.render(
-  <React.StrictMode>
+    // <Carousel  />
+    // <Example />
+    // <Camileo />
     <App />
-  </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
